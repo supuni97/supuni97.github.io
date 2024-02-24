@@ -1,0 +1,30 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>Supuni Bandara</foaf:name>
+<foaf:title>Miss</foaf:title>
+<foaf:givenname>Supuni</foaf:givenname>
+<foaf:family_name>Bandara</foaf:family_name>
+<foaf:nick>Sue</foaf:nick>
+<foaf:mbox_sha1sum>86ed1b420f509ce5528da3ac2a346dc4b72f5047</foaf:mbox_sha1sum>
+<foaf:homepage rdf:resource="https://supuni97.github.io/"/>
+<foaf:phone rdf:resource="tel:0719153533"/>
+<foaf:schoolHomepage rdf:resource="https://www.kln.ac.lk/"/>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Tharaka</foaf:name>
+<foaf:mbox_sha1sum>91da124a28ea620d5329e91e49fb1d6c1d2834c0</foaf:mbox_sha1sum></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Vimukthini</foaf:name>
+<foaf:mbox_sha1sum>b18733ab5c7545d4a5e3d723794653d7a690c105</foaf:mbox_sha1sum></foaf:Person></foaf:knows></foaf:Person>
+</rdf:RDF>
